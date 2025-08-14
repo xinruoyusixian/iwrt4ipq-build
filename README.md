@@ -1,3 +1,5 @@
+[![Build All](https://github.com/chingjyu/self-use-iwrt/actions/workflows/build-all.yml/badge.svg)](https://github.com/chingjyu/self-use-iwrt/actions/workflows/build-all.yml)
+
 ## 提示
 
 - **本人不对任何人因使用本仓库和编译的二进制执行文件所遭受的任何理论或实际的损失承担责任！**
