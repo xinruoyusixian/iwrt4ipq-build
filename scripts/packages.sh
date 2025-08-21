@@ -49,7 +49,7 @@ UPDATE_PACKAGE "argon" "chingjyu/luci-theme-argon" "main"
 
 UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "master"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
-UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo"
+UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
