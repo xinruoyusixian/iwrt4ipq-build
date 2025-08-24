@@ -1,4 +1,4 @@
-[![Build All](https://github.com/chingjyu/self-use-iwrt/actions/workflows/build-all.yml/badge.svg)](https://github.com/chingjyu/self-use-iwrt/actions/workflows/build-all.yml)
+[![Build All](https://github.com/chingjyu/iwrt4ipq-build/actions/workflows/build-all.yml/badge.svg)](https://github.com/chingjyu/iwrt4ipq-build/actions/workflows/build-all.yml)
 
 ## 提示
 
