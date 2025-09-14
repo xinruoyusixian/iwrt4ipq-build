@@ -40,8 +40,13 @@ CONFIG_PACKAGE_luci-app-diskman=y
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-argon-config=y
+#文件管理
+CONFIG_PACKAGE_luci-app-filemanager=y
+CONFIG_PACKAGE_luci-i18n-filemanager-zh-cn=y
 
-CONFIG_PACKAGE_luci-app-tailscale=n #sonething went be wrong
+#taisacle 可能有问题
+CONFIG_PACKAGE_luci-app-tailscale=y
+
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-usteer=n
