@@ -66,7 +66,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "js" "" "homebox speedtest"
 
 UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main" "pkg"
-UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main" "pkg"
+UPDATE_PACKAGE "openwrt-bandix" "timsaya/openwrt-bandix" "main" "pkg"
 
 
 UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" "pkg"
