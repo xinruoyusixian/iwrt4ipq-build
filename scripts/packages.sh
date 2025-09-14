@@ -60,9 +60,9 @@ UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "wrtbwmon" "pyrovski/wrtbwmon" "main" "pkg"
-UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" "pkg"
 
+UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main" "pkg"
+UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
