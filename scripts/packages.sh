@@ -64,6 +64,10 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main" "pkg"
 UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main" "pkg"
 
+
+UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" "pkg"
+UPDATE_PACKAGE "wrtbwmon" "brvphoenix/wrtbwmon" "main" "pkg"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
