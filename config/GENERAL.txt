@@ -2,18 +2,9 @@
 CONFIG_PACKAGE_momo=n
 CONFIG_PACKAGE_luci-app-momo=n
 
-#micropyhton 
-CONFIG_PACKAGE_micropython-lib=y
+#taisacle 可能有问题
+CONFIG_PACKAGE_luci-app-tailscale=y
 
-
-CONFIG_PACKAGE_luci-app-easytier=y
-CONFIG_PACKAGE_luci-app-mosdns=y
-CONFIG_PACKAGE_luci-app-netspeedtest=y
-
-# Mwan3
-CONFIG_PACKAGE_mwan3=y
-CONFIG_PACKAGE_luci-app-mwan3=y
-CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
 
 #brvphoenix/luci-app-wrtbwmon
 #brvphoenix/wrtbwmon
@@ -27,21 +18,30 @@ CONFIG_PACKAGE_wrtbwmon=y
 CONFIG_PACKAGE_luci-app-bandix=y
 CONFIG_PACKAGE_bandix=y
 
+
+
+
+#micropyhton 
+CONFIG_PACKAGE_micropython-lib=y
+CONFIG_PACKAGE_luci-app-banip=y
+CONFIG_PACKAGE_luci-app-easytier=y
+CONFIG_PACKAGE_luci-app-mosdns=y
+CONFIG_PACKAGE_luci-app-netspeedtest=y
+# Mwan3
+CONFIG_PACKAGE_mwan3=y
+CONFIG_PACKAGE_luci-app-mwan3=y
+CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
 #WOL 唤醒
 CONFIG_PACKAGE_luci-app-wolplus=y
 #CPU频率
 CONFIG_PACKAGE_luci-app-cpufreq=y
 #ram释放
 CONFIG_PACKAGE_luci-app-ramfree=y
-
 #diskman
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_luci-app-diskman=y
-
-
 CONFIG_PACKAGE_luci-i18n-filebrowser-go-zh-cn=y
 CONFIG_PACKAGE_luci-app-filebrowser-go=y
-
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-argon-config=y
@@ -49,8 +49,7 @@ CONFIG_PACKAGE_luci-app-argon-config=y
 CONFIG_PACKAGE_luci-app-filemanager=y
 CONFIG_PACKAGE_luci-i18n-filemanager-zh-cn=y
 
-#taisacle 可能有问题
-CONFIG_PACKAGE_luci-app-tailscale=y
+
 
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
