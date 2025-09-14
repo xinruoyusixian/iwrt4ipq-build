@@ -61,6 +61,10 @@ UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
+UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
+UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "js" "" "homebox speedtest"
+
 UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main" "pkg"
 UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main" "pkg"
 
