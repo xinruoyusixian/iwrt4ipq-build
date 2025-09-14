@@ -2,6 +2,8 @@
 CONFIG_PACKAGE_momo=n
 CONFIG_PACKAGE_luci-app-momo=n
 
+#micropyhton 
+CONFIG_PACKAGE_micropython-lib=y
 
 
 CONFIG_PACKAGE_luci-app-easytier=y
