@@ -2,6 +2,7 @@
 CONFIG_PACKAGE_momo=n
 CONFIG_PACKAGE_luci-app-momo=n
 
+CONFIG_PACKAGE_luci-app-wrtbwmon=y
 CONFIG_PACKAGE_luci-app-watchcat=y
 CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-3cat=y
