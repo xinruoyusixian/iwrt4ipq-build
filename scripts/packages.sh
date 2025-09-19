@@ -72,6 +72,8 @@ UPDATE_PACKAGE "openwrt-bandix" "timsaya/openwrt-bandix" "main" "pkg"
 UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" "pkg"
 UPDATE_PACKAGE "wrtbwmon" "brvphoenix/wrtbwmon" "main" "pkg"
 
+UPDATE_PACKAGE "my-script" "xinruoyusixian/openwrtRunScript" "main" "pkg"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
