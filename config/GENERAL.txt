@@ -15,9 +15,7 @@ CONFIG_PACKAGE_luci-app-mjpg-streame=y #摄像头
 CONFIG_PACKAGE_luci-app-tailscale=n
 
 
-#brvphoenix/luci-app-wrtbwmon
-#brvphoenix/wrtbwmon
-
+#https://github.com/kenzok8/small-package 这里的插件可能可以用
 CONFIG_PACKAGE_luci-app-wrtbwmon=y
 CONFIG_PACKAGE_wrtbwmon=y
 
