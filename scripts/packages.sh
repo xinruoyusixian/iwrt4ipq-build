@@ -69,13 +69,12 @@ UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main"
 UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main"
 
 
-UPDATE_PACKAGE "luci-app-wrtbwmon" "brvphoenix/luci-app-wrtbwmon" "main" "pkg"
-UPDATE_PACKAGE "wrtbwmon" "brvphoenix/wrtbwmon" "main" "pkg"
-
 # 这个包里有很多插件可以看着用 
 #https://github.com/kenzok8/small-package
 #UPDATE_PACKAGE "这里写包名" "kenzok8/small-package" "main"
 
+UPDATE_PACKAGE "wrtbwmon" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-wrtbwmon" "kenzok8/small-package" "main"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
