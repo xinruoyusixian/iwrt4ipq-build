@@ -65,6 +65,8 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "js" "" "homebox speedtest"
 
+
+#流量监控插件
 UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main"
 UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main"
 
@@ -75,8 +77,6 @@ UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main"
 
 UPDATE_PACKAGE "wrtbwmon" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-wrtbwmon" "kenzok8/small-package" "main"
-
-
 UPDATE_PACKAGE "luci-app-autorepeater" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-ddnsto" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-unishare" "kenzok8/small-package" "main"
@@ -84,10 +84,10 @@ UPDATE_PACKAGE "luci-app-watchdog" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-udp2raw" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-timecontrol" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main"
+
+#UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main" #有问题的插件
 UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-istorepanel" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "homebox" "kenzok8/small-package" "main"
 
