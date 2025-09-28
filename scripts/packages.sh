@@ -75,6 +75,25 @@ UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main"
 
 UPDATE_PACKAGE "wrtbwmon" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-wrtbwmon" "kenzok8/small-package" "main"
+
+
+UPDATE_PACKAGE "luci-app-autorepeater" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-ddnsto" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-unishare" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-watchdog" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-udp2raw" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-timecontrol" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-istorepanel" "kenzok8/small-package" "main"
+UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
+
+
+
+
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
