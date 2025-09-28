@@ -89,7 +89,7 @@ UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-istorepanel" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
-
+UPDATE_PACKAGE "homebox" "kenzok8/small-package" "main"
 
 
 
