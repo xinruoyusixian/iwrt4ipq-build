@@ -84,13 +84,13 @@ UPDATE_PACKAGE "luci-app-watchdog" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-udp2raw" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-timecontrol" "kenzok8/small-package" "main"
-
-#UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main" #有问题的插件
 UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "homebox" "kenzok8/small-package" "main"
 
+#有异常的
+#UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main" #有问题的插件
+#UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"#有问题的插件
 
 
 
