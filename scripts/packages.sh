@@ -82,10 +82,10 @@ UPDATE_PACKAGE "luci-app-ddnsto" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-unishare" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-watchdog" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-udp2raw" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
+#UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-timecontrol" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
+#UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
 UPDATE_PACKAGE "homebox" "kenzok8/small-package" "main"
 
 #有异常的
