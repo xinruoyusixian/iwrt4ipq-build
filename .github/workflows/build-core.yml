@@ -155,7 +155,12 @@ jobs:
 
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-
+          
+      - name: 删除可能得冲突包 
+        run: |
+          cd ./wrt/
+          rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
+     
       - name: Custom Packages
         run: |
           cd ./wrt/package/
