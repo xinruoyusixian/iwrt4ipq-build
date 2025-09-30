@@ -58,27 +58,6 @@ UPDATE_PACKAGE "luci-app-bandix" "timsaya/luci-app-bandix" "main"
 UPDATE_PACKAGE "bandix" "timsaya/openwrt-bandix" "main"
 
 
-# 这个包里有很多插件可以看着用 
-#https://github.com/kenzok8/small-package
-#UPDATE_PACKAGE "这里写包名" "kenzok8/small-package" "main"
-
-UPDATE_PACKAGE "wrtbwmon" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-wrtbwmon" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-autorepeater" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-ddnsto" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-unishare" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-watchdog" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-tinyfilemanager" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-timecontrol" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "luci-app-syncdial" "kenzok8/small-package" "main"
-#UPDATE_PACKAGE "luci-app-oaf" "kenzok8/small-package" "main"
-UPDATE_PACKAGE "homebox" "kenzok8/small-package" "main"
-
-#有异常的
-#UPDATE_PACKAGE "luci-app-systools" "kenzok8/small-package" "main" #有问题的插件
-#UPDATE_PACKAGE "luci-app-store" "kenzok8/small-package" "main"#有问题的插件
-
-
 
 #更新软件包版本
 UPDATE_VERSION() {
