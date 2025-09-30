@@ -1,70 +1,7 @@
-
-CONFIG_PACKAGE_luci-app-statistics=y
-CONFIG_PACKAGE_luci-app-watchcat=y
-CONFIG_PACKAGE_luci-app-arpbind=y
-CONFIG_PACKAGE_luci-app-3cat=y
-CONFIG_PACKAGE_luci-app-wifischedule=y
-CONFIG_PACKAGE_zram-swap=y #zram
-
-#这里的插件  https://github.com/kenzok8/small-package 
-CONFIG_PACKAGE_luci-app-autorepeater=y #自动中继
 CONFIG_PACKAGE_luci-app-ddnsto=y
-CONFIG_PACKAGE_luci-app-unishare=y
-CONFIG_PACKAGE_luci-app-watchdog=y
-CONFIG_PACKAGE_luci-app-tinyfilemanager=y
-CONFIG_PACKAGE_luci-app-timecontrol=y
-CONFIG_PACKAGE_luci-app-syncdial=y #多播
-
-
-#CONFIG_PACKAGE_luci-app-oaf=y   
-CONFIG_PACKAGE_homebox=y
-
 CONFIG_PACKAGE_luci-app-wrtbwmon=y #流量监控
 CONFIG_PACKAGE_wrtbwmon=y
 
-#bandix 流量监控
-#timsaya/luci-app-bandix/
-#timsaya/openwrt-bandix
-CONFIG_PACKAGE_luci-app-bandix=y
-CONFIG_PACKAGE_bandix=y
-
-
-
-
-#micropyhton 
-CONFIG_PACKAGE_micropython-lib=y
-CONFIG_PACKAGE_luci-app-banip=y
-CONFIG_PACKAGE_luci-app-easytier=y
-CONFIG_PACKAGE_luci-app-mosdns=y
-
-
-
-
-#WOL 唤醒
-CONFIG_PACKAGE_luci-app-wolplus=y
-#CPU频率
-CONFIG_PACKAGE_luci-app-cpufreq=y
-#ram释放
-CONFIG_PACKAGE_luci-app-ramfree=y
-#diskman
-CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
-CONFIG_PACKAGE_luci-app-diskman=y
-CONFIG_PACKAGE_luci-i18n-filebrowser-go-zh-cn=y
-CONFIG_PACKAGE_luci-app-filebrowser-go=y
-#增加插件
-CONFIG_PACKAGE_luci-app-autoreboot=y
-CONFIG_PACKAGE_luci-app-argon-config=y
-#文件管理
-CONFIG_PACKAGE_luci-app-filemanager=y
-CONFIG_PACKAGE_luci-i18n-filemanager-zh-cn=y
-
-
-
-CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_luci-app-upnp=y
-CONFIG_PACKAGE_luci-app-usteer=n
-#删除插件
-CONFIG_PACKAGE_luci-app-samba4=y
 #参数调整
 CONFIG_DEVEL=y
 CONFIG_CCACHE=y
