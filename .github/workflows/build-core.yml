@@ -103,6 +103,12 @@ jobs:
             sed -i '/.cn\//d; /tencent/d; /aliyun/d' "$PROJECT_MIRRORS_FILE"
           fi
 
+
+      - name: 增加软件包源
+        run: |
+          cd ./wrt/
+          echo "src-git smpackage https://github.com/kenzok8/small-package" >> feeds.conf.default
+          
       - name: Check Scripts
         run: |
           find ./ -maxdepth 3 -type f -iregex ".*\(txt\|sh\)$" -exec dos2unix {} \; -exec chmod +x {} \;
