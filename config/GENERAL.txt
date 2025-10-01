@@ -1,10 +1,10 @@
 
 
-#CONFIG_PACKAGE_luci-app-statistics=y
-#CONFIG_PACKAGE_luci-app-watchcat=y
-#CONFIG_PACKAGE_luci-app-arpbind=y
-#CONFIG_PACKAGE_luci-app-3cat=y
-#CONFIG_PACKAGE_luci-app-wifischedule=y
+CONFIG_PACKAGE_luci-app-statistics=y
+CONFIG_PACKAGE_luci-app-watchcat=y
+CONFIG_PACKAGE_luci-app-arpbind=y
+CONFIG_PACKAGE_luci-app-3cat=y
+CONFIG_PACKAGE_luci-app-wifischedule=y
 
 
 #CONFIG_PACKAGE_luci-app-ddnsto=y
@@ -49,15 +49,13 @@ CONFIG_PACKAGE_luci-app-cpufreq=y
 CONFIG_PACKAGE_luci-app-ramfree=y
 
 #diskman
-CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_luci-app-diskman=y
 
-CONFIG_PACKAGE_luci-i18n-filebrowser-go-zh-cn=y
 CONFIG_PACKAGE_luci-app-filebrowser-go=y
 
 #文件管理
 CONFIG_PACKAGE_luci-app-filemanager=y
-CONFIG_PACKAGE_luci-i18n-filemanager-zh-cn=y
+
 
 
 
