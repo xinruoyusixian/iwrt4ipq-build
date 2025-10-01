@@ -1,16 +1,18 @@
 
 
-CONFIG_PACKAGE_luci-app-statistics=y
-CONFIG_PACKAGE_luci-app-watchcat=y
-CONFIG_PACKAGE_luci-app-arpbind=y
-CONFIG_PACKAGE_luci-app-3cat=y
-CONFIG_PACKAGE_luci-app-wifischedule=y
+#CONFIG_PACKAGE_luci-app-statistics=y
+#CONFIG_PACKAGE_luci-app-watchcat=y
+#CONFIG_PACKAGE_luci-app-arpbind=y
+#CONFIG_PACKAGE_luci-app-3cat=y
+#CONFIG_PACKAGE_luci-app-wifischedule=y
 
 
-CONFIG_PACKAGE_luci-app-ddnsto=y
-CONFIG_PACKAGE_luci-app-unishare=y
-CONFIG_PACKAGE_luci-app-timecontrol=y
-CONFIG_PACKAGE_luci-app-oaf=y
+#CONFIG_PACKAGE_luci-app-ddnsto=y
+#CONFIG_PACKAGE_luci-app-unishare=y
+#CONFIG_PACKAGE_luci-app-timecontrol=y
+#CONFIG_PACKAGE_luci-app-oaf=y
+#CONFIG_PACKAGE_luci-app-netspeedtest=y
+
 
 #流量监控
 CONFIG_PACKAGE_luci-app-wrtbwmon=y
@@ -22,15 +24,16 @@ CONFIG_PACKAGE_wrtbwmon=y
 CONFIG_PACKAGE_luci-app-bandix=y
 CONFIG_PACKAGE_bandix=y
 
+#内网穿透
+CONFIG_PACKAGE_luci-app-easytier=y
 
-
+CONFIG_PACKAGE_luci-app-mosdns=y
+CONFIG_PACKAGE_luci-app-banip=y
 
 #micropyhton 
 CONFIG_PACKAGE_micropython-lib=y
-CONFIG_PACKAGE_luci-app-banip=y
-CONFIG_PACKAGE_luci-app-easytier=y
-CONFIG_PACKAGE_luci-app-mosdns=y
-CONFIG_PACKAGE_luci-app-netspeedtest=y
+
+
 
 # Mwan3
 #CONFIG_PACKAGE_mwan3=y
