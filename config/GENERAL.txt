@@ -12,7 +12,7 @@ CONFIG_PACKAGE_luci-app-taskplan=y
 CONFIG_PACKAGE_luci-app-nft-timecontrol=y
 CONFIG_PACKAGE_luci-app-eqosplus=y
 CONFIG_PACKAGE_luci-app-watchdog=y
-CONFIG_PACKAGE_luci-app-unishare=y
+#CONFIG_PACKAGE_luci-app-unishare=y
 CONFIG_PACKAGE_luci-app-ddnsto=y
 
 
@@ -38,9 +38,9 @@ CONFIG_PACKAGE_micropython-lib=y
 
 
 # Mwan3
-CONFIG_PACKAGE_mwan3=y
-CONFIG_PACKAGE_luci-app-mwan3=y
-CONFIG_PACKAGE_luci-app-mwan3helper=y   #MWAN3分流助手
+#CONFIG_PACKAGE_mwan3=y
+#CONFIG_PACKAGE_luci-app-mwan3=y
+#CONFIG_PACKAGE_luci-app-mwan3helper=y   #MWAN3分流助手
 
 #WOL 唤醒
 CONFIG_PACKAGE_luci-app-wolplus=y
@@ -63,7 +63,7 @@ CONFIG_PACKAGE_luci-app-filemanager=y
 
 
 #samba4
-#CONFIG_PACKAGE_luci-app-samba4=y
+CONFIG_PACKAGE_luci-app-samba4=y
 
 
 #增加插件
