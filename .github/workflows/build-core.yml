@@ -104,10 +104,7 @@ jobs:
           fi
 
 
-      - name: 增加软件包源
-        run: |
-          cd ./wrt/
-          echo "src-git smpackage https://github.com/kenzok8/small-package" >> feeds.conf.default
+
           
       - name: Check Scripts
         run: |
@@ -156,10 +153,7 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           
-      - name: 删除可能得冲突包 
-        run: |
-          cd ./wrt/
-          rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
+
      
       - name: Custom Packages
         run: |
