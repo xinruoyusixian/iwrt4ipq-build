@@ -69,8 +69,12 @@ UPDATE_PACKAGE "unishare" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "webdav2" "xinruoyusixian/alan-package" "main" "pkg"
 
 UPDATE_PACKAGE "luci-app-wrtbwmon" "xinruoyusixian/alan-package" "main" "pkg"
+
+UPDATE_PACKAGE "wrtbwmon" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "wrtbwmon" "xinruoyusixian/alan-package" "main" "pkg"
 
+UPDATE_PACKAGE "quickfile" "xinruoyusixian/alan-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-quickfile" "xinruoyusixian/alan-package" "main" "pkg"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
