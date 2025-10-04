@@ -73,6 +73,15 @@ CONFIG_PACKAGE_luci-app-upnp=y
 
 
 
+#IPV6支持
+CONFIG_PACKAGE_ipv6helper=y
+CONFIG_PACKAGE_kmod-ipv6=y
+CONFIG_PACKAGE_kmod-ip6tables=y
+CONFIG_PACKAGE_kmod-nft6=y
+CONFIG_PACKAGE_kmod-nft6-fib=y
+CONFIG_PACKAGE_kmod-nft6-rt=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+
 #参数调整
 CONFIG_DEVEL=y
 CONFIG_CCACHE=y
