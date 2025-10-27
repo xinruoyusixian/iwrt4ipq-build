@@ -2,6 +2,15 @@
 
 PKG_PATH="$GITHUB_WORKSPACE/wrt/package/"
 
+# 给 luci-app-store 的 is-opkg 加可执行权限
+STORE_IS_OPKG="$(find "$GITHUB_WORKSPACE/wrt/feeds/" -type f -path "*/luci-app-store/root/bin/is-opkg" | head -n1)"
+if [ -n "$STORE_IS_OPKG" ]; then
+	chmod +x "$STORE_IS_OPKG"
+	echo "luci-app-store/is-opkg 已赋可执行权限：$STORE_IS_OPKG"
+else
+	echo "luci-app-store/is-opkg 未找到，跳过赋权"
+fi
+
 #预置HomeProxy数据
 if [ -d *"homeproxy"* ]; then
 	echo " "
