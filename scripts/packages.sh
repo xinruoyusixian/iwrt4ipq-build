@@ -79,6 +79,14 @@ UPDATE_PACKAGE "luci-app-quickfile" "xinruoyusixian/alan-package" "main" "pkg"
 
 UPDATE_PACKAGE "luci-app-adguardhome" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "adguardhome" "xinruoyusixian/alan-package" "main" "pkg"
+
+UPDATE_PACKAGE "zram-swap" "xinruoyusixian/alan-package" "main" "pkg"
+UPDATE_PACKAGE "taskd" "xinruoyusixian/alan-package" "main" "pkg"
+UPDATE_PACKAGE "luci-lib-xterm" "xinruoyusixian/alan-package" "main" "pkg"
+UPDATE_PACKAGE "luci-lib-taskd" "xinruoyusixian/alan-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-store" "xinruoyusixian/alan-package" "main" "pkg"
+#UPDATE_PACKAGE "quickstart" "xinruoyusixian/alan-package" "main" "pkg"
+#UPDATE_PACKAGE "luci-app-quickstart" "xinruoyusixian/alan-package" "main" "pkg"
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
