@@ -1,4 +1,19 @@
 
+
+CONFIG_PACKAGE_zram-swap=y
+CONFIG_PACKAGE_taskd=y
+CONFIG_PACKAGE_luci-lib-xterm=y
+CONFIG_PACKAGE_luci-lib-taskd=y
+CONFIG_PACKAGE_luci-app-store=y
+
+# Libraries
+CONFIG_USE_APK=n  #APK关闭
+CONFIG_PACKAGE_luci-lib-ipkg=y
+CONFIG_PACKAGE_libopenssl-legacy=y
+CONFIG_PACKAGE_qrencode=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-sqm=y
+
 CONFIG_PACKAGE_rsyncd=y
 CONFIG_PACKAGE_rsync=y
 
