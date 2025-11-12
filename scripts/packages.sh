@@ -76,7 +76,7 @@ UPDATE_PACKAGE "wrtbwmon" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "quickfile" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-quickfile" "xinruoyusixian/alan-package" "main" "pkg"
 
-
+UPDATE_PACKAGE "luci-app-pushbot" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-adguardhome" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "adguardhome" "xinruoyusixian/alan-package" "main" "pkg"
 
