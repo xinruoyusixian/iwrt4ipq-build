@@ -87,6 +87,14 @@ UPDATE_PACKAGE "luci-lib-taskd" "xinruoyusixian/alan-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-store" "xinruoyusixian/alan-package" "main" "pkg"
 #UPDATE_PACKAGE "quickstart" "xinruoyusixian/alan-package" "main" "pkg"
 #UPDATE_PACKAGE "luci-app-quickstart" "xinruoyusixian/alan-package" "main" "pkg"
+
+
+UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
+UPDATE_PACKAGE "luci-app-advancedplus" "sirpdboy/luci-app-advancedplus" "main" 
+UPDATE_PACKAGE "luci-app-syscontrol" "bobbyunknown/luci-app-syscontrol" "main"
+
+
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
