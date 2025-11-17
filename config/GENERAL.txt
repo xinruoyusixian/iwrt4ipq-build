@@ -1,5 +1,5 @@
-CONFIG_PACKAGE_luci-app-partexp=y 
-CONFIG_PACKAGE_luci-app-syscontrol=y 
+#CONFIG_PACKAGE_luci-app-partexp=y 
+#CONFIG_PACKAGE_luci-app-syscontrol=y 
 #CONFIG_PACKAGE_luci-app-advancedplus=y
 
 
