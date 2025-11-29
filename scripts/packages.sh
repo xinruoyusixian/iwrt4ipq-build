@@ -93,6 +93,7 @@ UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 UPDATE_PACKAGE "luci-app-advancedplus" "sirpdboy/luci-app-advancedplus" "main" 
 UPDATE_PACKAGE "luci-app-syscontrol" "bobbyunknown/luci-app-syscontrol" "main"
 
+UPDATE_PACKAGE "luci-app-subconverter" "xinruoyusixian/alan-package" "main" "pkg"
 
 
 #更新软件包版本
