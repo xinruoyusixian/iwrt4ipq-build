@@ -1,16 +1,15 @@
 #CONFIG_PACKAGE_luci-app-syscontrol=y  #会报错
 CONFIG_PACKAGE_luci-app-partexp=y 
 CONFIG_PACKAGE_luci-app-advancedplus=y
-CONFIG_PACKAGE_luci-app-subconverter=n
 # luci-app-cupsd
 #不要这玩意
 CONFIG_PACKAGE_attendedsysupgrade-common=n
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 
 # Libraries
-CONFIG_USE_APK=n #APK关闭    启动istore 需要关闭
+CONFIG_USE_APK=y #APK关闭    启动istore 需要关闭
 
-#istore相关
+#istore相关 
 CONFIG_PACKAGE_luci-lib-ipkg=y #IPK包
 CONFIG_PACKAGE_taskd=y
 CONFIG_PACKAGE_luci-lib-xterm=y
